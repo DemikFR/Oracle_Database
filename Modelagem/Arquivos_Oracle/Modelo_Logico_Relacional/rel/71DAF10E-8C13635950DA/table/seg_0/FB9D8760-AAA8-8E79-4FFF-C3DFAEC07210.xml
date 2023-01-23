@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB9D8760-AAA8-8E79-4FFF-C3DFAEC07210" name="PROJETO_PESQUISA">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>ACEDC172-B28A-3D05-E0A7-2259F062F7E1</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto_pesquisa" id="1A1C625F-7850-6116-D000-DE935721F3F7">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>EE5CA10E-A4AB-5DE7-971B-E9853F0747A1</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_categoria" id="B72EB9DE-9A6D-C572-97D2-B4069E58577E">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>CE1F2910-8EF1-1066-F694-30D69FC5E336</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A032D3E5-5C2E-84A9-D03E-A699A6E84787" referredColumn="DE76DFDF-4BE5-23C7-1716-954C71D4C719"/>
+</associations>
+</Column>
+<Column name="id_pesquisa" id="C403CBBE-8BD3-6B76-28CC-5C2DCB4CCE87">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>8537F864-A014-AF10-40A9-4BAB6647937D</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92E65107-6063-9050-6DF5-ACEE570FCE9C" referredColumn="6A389026-CDFE-6D8B-177E-F8BD33011B00"/>
+</associations>
+</Column>
+<Column name="codigo_projeto" id="948E5076-21E9-FAB9-E194-AF6E28F4AA83">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>86B182E6-9918-24B1-BAE6-DE19CE0C3DF2</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C86E5EB-6799-FAF5-3C39-623ACC51A3B7" referredColumn="1996B62D-1150-CA16-EC5C-5C143A5C8552"/>
+</associations>
+</Column>
+<Column name="titulo" id="CBAEC1E5-2FAD-D3E0-960B-A182755E449F">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>F5AD5499-3404-4805-5704-293028A4D71D</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>298</dataTypeSize>
+<ownDataTypeParameters>298,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F538A2E8-886D-F98D-BE86-621322AB9E87" name="PROJETO_PESQUISA_PK">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>176C11F1-DF4E-E232-F6DC-DDB7F73E9F4E</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A1C625F-7850-6116-D000-DE935721F3F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74E8F4DB-6AEC-0290-298D-80C4A5F74EE6" name="CATEGORIA_FK">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>09601247-22D4-EED9-7ED4-F02CB71124EA</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B72EB9DE-9A6D-C572-97D2-B4069E58577E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="937659DC-E2AF-93C0-377F-934673DC75F5" name="PESQUISA_FK">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>8114A3C9-9048-230B-E289-42E25A7D0D4F</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C403CBBE-8BD3-6B76-28CC-5C2DCB4CCE87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B11B811D-B00E-4006-5ED2-D018A3B9C5B9" name="PROJETO_FK">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>5B85B738-0005-F4E9-C104-2F1216FBAB48</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="948E5076-21E9-FAB9-E194-AF6E28F4AA83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BOLSA UNIDADE FK" directorySegmentName="seg_0" id="EE7379B6-492E-6815-3162-E0100ADE9400">
+<createdBy>demik</createdBy>
+<createdTime>2022-09-14 01:10:02 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<sourcePk>6F0E2DFF-0206-ADA4-B4BE-1FE9FDF9DFD5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2960B02D-8AC4-8038-62ED-8A36FE6D2FC2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D3B10C7C-E896-AA8D-25B1-783DC3E5038E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

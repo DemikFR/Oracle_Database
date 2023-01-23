@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="E65998BB-545E-C47F-3937-FEEBBCA232A4">
+<createdBy>demik</createdBy>
+<createdTime>2022-09-13 23:59:56 UTC</createdTime>
+<ownerDesignName>logical_diagram</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

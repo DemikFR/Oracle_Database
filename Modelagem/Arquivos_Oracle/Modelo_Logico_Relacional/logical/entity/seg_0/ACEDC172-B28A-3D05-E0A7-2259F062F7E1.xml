@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACEDC172-B28A-3D05-E0A7-2259F062F7E1" name="PROJETO PESQUISA">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:01:33 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd projeto pesquisa" id="EE5CA10E-A4AB-5DE7-971B-E9853F0747A1">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:01:46 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd categoria" id="CE1F2910-8EF1-1066-F694-30D69FC5E336">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:04:03 UTC</createdTime>
+<generatorID>09601247-22D4-EED9-7ED4-F02CB71124EA</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<referedAttribute>D2064B63-FF8A-C76E-6DE7-E0F3F465333E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id pesquisa" id="8537F864-A014-AF10-40A9-4BAB6647937D">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:04:57 UTC</createdTime>
+<generatorID>8114A3C9-9048-230B-E289-42E25A7D0D4F</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<referedAttribute>2850D4E4-6065-40A2-AF4D-3FBE8E877B8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo projeto" id="86B182E6-9918-24B1-BAE6-DE19CE0C3DF2">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:05:27 UTC</createdTime>
+<generatorID>5B85B738-0005-F4E9-C104-2F1216FBAB48</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<referedAttribute>AFB8B989-D62F-7D1A-CC9B-0FE74491FF94</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="F5AD5499-3404-4805-5704-293028A4D71D">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:02:59 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>298</dataTypeSize>
+<ownDataTypeParameters>298,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="176C11F1-DF4E-E232-F6DC-DDB7F73E9F4E" name="PROJETO_PESQUISA_PK">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:01:53 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE5CA10E-A4AB-5DE7-971B-E9853F0747A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

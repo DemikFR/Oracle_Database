@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D51520CB-CAB0-586D-B014-19489A69A11C" name="UNIDADE_ALUNO">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>42E7056B-3D72-272A-22C1-7DC1BE5B90C9</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matricula" id="95AD61B6-A869-D853-D58A-E0BD47046BB2">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>4F5E39FB-3CAB-E931-C664-6338A5946EA4</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0B80F22-B0A4-6F3C-2873-5A85076C641E" referredColumn="0102FB27-350C-AE3B-C07B-0C59878511C3"/>
+</associations>
+</Column>
+<Column name="id_unidade" id="9E4040D9-EFB9-B91D-4299-E736AEAF6FE4">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>BA7EDA60-48CE-3D97-9546-3BBBDC5F9DE4</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3BEAA04-6480-4DC8-4C87-55315738581F" referredColumn="E0C2649E-72F2-C081-C677-DA53BF63A090"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79FE05A2-3095-8CA3-112F-8EF6B95F08C5" name="UNIDADE_ALUNO_PK">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>C4EDCF31-DC63-7D23-00A7-B8C8D8CFD528</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95AD61B6-A869-D853-D58A-E0BD47046BB2"/>
+<colUsage columnID="9E4040D9-EFB9-B91D-4299-E736AEAF6FE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="556A1284-3624-7DEF-8B69-054D9F19937B" name="MATRICULA_ALUNO_FK">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>881440E3-CDF6-40CE-6E27-41B86ACF9FAF</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95AD61B6-A869-D853-D58A-E0BD47046BB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29163BE2-F933-B9D4-FAA7-CE82E7D0F35B" name="ID_UNIDADE_FK">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>68E29B0F-BE34-BB14-BD52-70F6F7D46C35</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E4040D9-EFB9-B91D-4299-E736AEAF6FE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

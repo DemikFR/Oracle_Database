@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3B10C7C-E896-AA8D-25B1-783DC3E5038E" name="BOLSA">
+<createdBy>demik</createdBy>
+<createdTime>2022-09-14 00:10:08 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd bolsa" id="7DBE5420-21CC-4FB1-B298-622996980066">
+<createdBy>demik</createdBy>
+<createdTime>2022-09-14 00:10:33 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id discente" id="BC3D3380-9B23-F637-D0B8-928603813EAB">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-22 20:30:05 UTC</createdTime>
+<generatorID>BD2E13C6-606D-6340-01F4-D305F1B02D3B</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<referedAttribute>EEEFAC7E-8B64-3B06-907B-44B22A2F6C6B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id unidade" id="683C4B45-125D-2218-BF6D-2DB57A1BF7D3">
+<createdBy>demik</createdBy>
+<createdTime>2022-09-14 01:10:02 UTC</createdTime>
+<generatorID>EE7379B6-492E-6815-3162-E0100ADE9400</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<referedAttribute>2DF197DE-AF63-0112-A9C0-71DD16B48358</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id pesquisa" id="C049E8F1-8B08-376B-66C4-FAE54846D8FD">
+<createdBy>demik</createdBy>
+<createdTime>2022-09-17 20:34:40 UTC</createdTime>
+<generatorID>7E7E82BC-AAF5-73BB-3BA4-FC274595E935</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<referedAttribute>2850D4E4-6065-40A2-AF4D-3FBE8E877B8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo bolsa" id="7CADE50B-84C9-D20B-AD26-E3CE19585BBC">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-25 00:56:48 UTC</createdTime>
+<generatorID>085A77CE-71F9-D348-4E42-C76825187C04</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="178292AF-98A5-78DA-AC6E-07BE73F1E6BF" name="BOLSA_PK">
+<createdBy>demik</createdBy>
+<createdTime>2022-09-14 01:05:16 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DBE5420-21CC-4FB1-B298-622996980066</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

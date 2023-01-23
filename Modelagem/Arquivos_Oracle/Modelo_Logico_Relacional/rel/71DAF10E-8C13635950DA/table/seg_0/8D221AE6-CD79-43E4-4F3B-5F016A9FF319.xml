@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D221AE6-CD79-43E4-4F3B-5F016A9FF319" name="ORIENTADOR">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>8C2C2721-FFE1-19D7-7B5C-A25F110044EA</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_orientador" id="581D1E6F-D0DE-2CA4-E422-6B68DD0C90FF">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>73DAF51E-5A13-6452-DFF0-4CD1407316CA</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_grupo" id="2594D69A-64F3-26E0-2E26-A79568BE0F94">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>02C50464-17E6-C848-0FB6-E2B3B47B656E</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="924C05E6-772B-FFD5-9318-29D2FFDE27A6" referredColumn="AC1EF219-A92F-9FCC-9B7F-0B1AB061BE29"/>
+</associations>
+</Column>
+<Column name="nm_orientador" id="3C1584C1-F14C-024E-62F2-6C78F26F4115">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>CB07BB1B-4445-A211-216C-BBCC3D1F1ED0</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>53</dataTypeSize>
+<ownDataTypeParameters>53,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58E75E65-48A9-905B-7F54-00194732FCD4" name="ORIENTADOR_PK">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>B4F75D64-9DE3-B36F-716F-32729BD54C74</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="581D1E6F-D0DE-2CA4-E422-6B68DD0C90FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41831D64-7B18-69EF-C5D0-F6BD670212FF" name="ORIENTADOR_GRUPO_PESQUISA_FK">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>0D0F8EB5-C7C9-6C94-F3CD-01A4F3216683</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2594D69A-64F3-26E0-2E26-A79568BE0F94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

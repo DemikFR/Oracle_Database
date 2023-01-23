@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF85C1D4-2F0F-CEF2-8B44-C56A192C48B3" name="PROJETO">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>E4D1AFFC-30DA-B70C-C780-31DFEE29734B</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_projeto" id="1996B62D-1150-CA16-EC5C-5C143A5C8552">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>AFB8B989-D62F-7D1A-CC9B-0FE74491FF94</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="2B3041A0-C53A-363F-D2EF-FAD071C2F67B">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>94D80C81-2CF7-5B85-A9BB-7A84CACABB97</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9339692F-BB43-8E88-07C1-62291B382A3A" name="PROJETO_PK">
+<createdBy>demik</createdBy>
+<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<generatorID>60579D03-72C6-B8B7-DBEE-B9057004125F</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1996B62D-1150-CA16-EC5C-5C143A5C8552"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

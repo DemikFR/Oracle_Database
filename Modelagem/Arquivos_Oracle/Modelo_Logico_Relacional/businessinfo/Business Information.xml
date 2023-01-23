@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="82DB02E5-B3EE-623D-4A24-6A93347E1D01">
+<createdBy>demik</createdBy>
+<createdTime>2022-09-13 23:59:56 UTC</createdTime>
+<ownerDesignName>logical_diagram</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

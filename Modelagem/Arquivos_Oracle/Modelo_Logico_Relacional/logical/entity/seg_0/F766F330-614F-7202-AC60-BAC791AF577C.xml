@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F766F330-614F-7202-AC60-BAC791AF577C" name="BOLSISTA">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 01:27:29 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id discente" id="EEEFAC7E-8B64-3B06-907B-44B22A2F6C6B">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 01:27:51 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="660D25B0-2510-7267-2DC0-CCF09E62A5D8">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 01:28:31 UTC</createdTime>
+<generatorID>9BC06D42-A420-8416-3CE7-C4D4A6D60276</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<referedAttribute>3E24D844-7BCA-D644-DC2A-6F4B47C726F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id orientador" id="3A0677F2-2E59-A799-E964-F1FA1817E777">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 01:45:49 UTC</createdTime>
+<generatorID>5E43D59A-CF52-171B-3705-CC62567659BA</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<referedAttribute>73DAF51E-5A13-6452-DFF0-4CD1407316CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id grupo" id="EFD2EA04-1938-DBAF-5EE0-CF12CA2B085E">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 02:02:29 UTC</createdTime>
+<generatorID>3FB00001-FF5F-DC74-046A-FCA24BE79506</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6F27014D-7453-02E0-C9AA-3778688A1938</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8325DAE2-55BF-BB4F-AF2E-8727AFE9FD46" name="BOLSISTA PK">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 01:27:58 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EEEFAC7E-8B64-3B06-907B-44B22A2F6C6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

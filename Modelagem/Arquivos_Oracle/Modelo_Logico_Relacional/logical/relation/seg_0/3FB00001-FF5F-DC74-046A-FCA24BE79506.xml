@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BOLSISTA GRUPO PESQUISA FK" directorySegmentName="seg_0" id="3FB00001-FF5F-DC74-046A-FCA24BE79506">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 02:02:29 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<sourcePk>34C96E69-B68E-C326-5257-E8FD8612A8A9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7C54551E-1609-A4F7-399E-7EAC55A424E7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F766F330-614F-7202-AC60-BAC791AF577C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

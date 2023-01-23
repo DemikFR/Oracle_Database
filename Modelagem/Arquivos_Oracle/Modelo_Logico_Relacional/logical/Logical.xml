@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E0026C9B-CBB7-5A2C-1440-2A49B0849E02" mainViewID="072772CE-3F0A-7686-A289-12591EF2E62D">
+<createdBy>demik</createdBy>
+<createdTime>2022-09-13 23:59:56 UTC</createdTime>
+<ownerDesignName>logical_diagram</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

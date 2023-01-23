@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BOLSA BOLSISTA FK" directorySegmentName="seg_0" id="BD2E13C6-606D-6340-01F4-D305F1B02D3B">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 02:11:08 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<sourcePk>8325DAE2-55BF-BB4F-AF2E-8727AFE9FD46</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F766F330-614F-7202-AC60-BAC791AF577C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D3B10C7C-E896-AA8D-25B1-783DC3E5038E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

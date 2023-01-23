@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_Logico_Relacional" id="7F82EEF3-4F79-88C8-9689-4292D7EC28A2" version="3.5">
+<createdBy>demik</createdBy>
+<createdTime>2022-09-13 23:59:56 UTC</createdTime>
+<ownerDesignName>logical_diagram</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7F82EEF3-4F79-88C8-9689-4292D7EC28A2</designId>
+</OSDM_Design>

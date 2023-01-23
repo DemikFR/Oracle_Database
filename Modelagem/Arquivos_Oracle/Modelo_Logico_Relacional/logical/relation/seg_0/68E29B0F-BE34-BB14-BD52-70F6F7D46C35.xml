@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ID UNIDADE FK" directorySegmentName="seg_0" id="68E29B0F-BE34-BB14-BD52-70F6F7D46C35">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-25 00:47:02 UTC</createdTime>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+</engineerTo>
+<sourcePk>6F0E2DFF-0206-ADA4-B4BE-1FE9FDF9DFD5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2960B02D-8AC4-8038-62ED-8A36FE6D2FC2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>42E7056B-3D72-272A-22C1-7DC1BE5B90C9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
