@@ -143,5 +143,3 @@ BEGIN
     :NEW.matricula := tratar_PKs(:NEW.matricula, 11);
     :NEW.id_unidade := tratar_PKs(:NEW.id_unidade, 5);
 END;
-
-INSERT INTO categoria_pesquisa (categoria) VALUES ('Cientifica')
