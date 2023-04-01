@@ -73,9 +73,9 @@ CD_projeto_pesquisa = 8, CD_categoria = 2, ID_orientador = 7, ID_grupo = 11, ID_
 
 15 - No banco, todos os textos deverão estar em maiúscula.
 
-16 - O campo de título não deverá ter valores nulos, caso tenha, deve ser transformado para "NÃO INFORMADO".
+16 - O campo de título e grupo de pesquisa não deverão ter valores nulos, caso tenha, deve ser transformado para "NÃO INFORMADO".
 
-17 - Caso o campo inicio ou fim estiverem nulos, deve ser usado os dados de cota para preenche-lo adequadamente.
+17 - Caso o campo inicio ou fim estiverem nulos, deve ser usado os dados de cota para preenche-los adequadamente.
 
 18 - O campo do código de projeto deve ser composto apenas pelas letras iniciais e seu número, separando do ano, tornando a com no máximo 9 caractéres.
 
