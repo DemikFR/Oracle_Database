@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>8</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id unidade" id="683C4B45-125D-2218-BF6D-2DB57A1BF7D3">
 <createdBy>demik</createdBy>

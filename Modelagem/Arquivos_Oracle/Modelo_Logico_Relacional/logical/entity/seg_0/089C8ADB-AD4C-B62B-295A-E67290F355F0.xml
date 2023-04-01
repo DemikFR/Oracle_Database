@@ -28,18 +28,20 @@
 <dataTypeSize>9</dataTypeSize>
 <ownDataTypeParameters>9,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="status" id="6828C8DB-246D-3FC1-176A-42AC2E6E45C7">
+<Attribute name="cd_status" id="767D871E-CBDA-3655-3A9A-B915D2B9EE4C">
 <createdBy>demik</createdBy>
-<createdTime>2022-09-17 20:34:23 UTC</createdTime>
+<createdTime>2023-04-01 01:25:57 UTC</createdTime>
+<generatorID>87ED3975-D545-FC4F-560C-E6DE2FB8B0D8</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <engineerTo>
 <item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
 </engineerTo>
+<referedAttribute>EF24D5FF-F7E2-BBF7-E4AD-85843A7B833D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>21</dataTypeSize>
-<ownDataTypeParameters>21,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="inicio pesquisa" id="9DED52F0-883A-1ECC-03FE-CE9192695D44">
 <createdBy>demik</createdBy>

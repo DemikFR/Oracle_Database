@@ -28,7 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>11</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id unidade" id="BA7EDA60-48CE-3D97-9546-3BBBDC5F9DE4">
 <createdBy>demik</createdBy>
@@ -48,7 +48,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C4EDCF31-DC63-7D23-00A7-B8C8D8CFD528" name="UNIDADADE_ALUNO_PK">
+<identifier id="C4EDCF31-DC63-7D23-00A7-B8C8D8CFD528" name="UNIDADE_ALUNO_PK">
 <createdBy>demik</createdBy>
 <createdTime>2022-11-25 00:45:57 UTC</createdTime>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>

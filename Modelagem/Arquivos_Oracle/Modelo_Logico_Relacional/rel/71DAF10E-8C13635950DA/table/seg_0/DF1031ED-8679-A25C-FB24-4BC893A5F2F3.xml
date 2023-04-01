@@ -1,49 +1,49 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D7FC1EA-0A52-41F1-9EBC-52264AA4538D" name="UNIDADE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF1031ED-8679-A25C-FB24-4BC893A5F2F3" name="GRUPO_PESQUISA">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:29:25 UTC</createdTime>
-<generatorID>2960B02D-8AC4-8038-62ED-8A36FE6D2FC2</generatorID>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
+<generatorID>7C54551E-1609-A4F7-399E-7EAC55A424E7</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_unidade" id="E0C2649E-72F2-C081-C677-DA53BF63A090">
+<Column name="id_grupo" id="B06C4CDC-F9A4-7F69-00F5-89C6D28A38EB">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:29:25 UTC</createdTime>
-<generatorID>2DF197DE-AF63-0112-A9C0-71DD16B48358</generatorID>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
+<generatorID>6F27014D-7453-02E0-C9AA-3778688A1938</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nm_unidade" id="CC7A3921-1DC4-DD27-F52A-085DBB63FC81">
+<Column name="nm_grupo" id="F8EF485B-C6A4-56E3-79AB-9709323C17CA">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:29:25 UTC</createdTime>
-<generatorID>AAA4DE5E-D621-9823-F6FB-27ECB6E16D90</generatorID>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
+<generatorID>100A3686-5668-8A66-A3B3-141B902B1ADE</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>116</dataTypeSize>
-<ownDataTypeParameters>116,,</ownDataTypeParameters>
+<dataTypeSize>113</dataTypeSize>
+<ownDataTypeParameters>113,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7F7E956F-91C5-2B73-C44C-020286CA47B2" name="UNIDADE_PK">
+<ind_PK_UK id="5A63EC67-E413-D0E2-A6B4-E17ADE464914" name="GRUPO_PESQUISA_PK">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:29:25 UTC</createdTime>
-<generatorID>6F0E2DFF-0206-ADA4-B4BE-1FE9FDF9DFD5</generatorID>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
+<generatorID>34C96E69-B68E-C326-5257-E8FD8612A8A9</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E0C2649E-72F2-C081-C677-DA53BF63A090"/>
+<colUsage columnID="B06C4CDC-F9A4-7F69-00F5-89C6D28A38EB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

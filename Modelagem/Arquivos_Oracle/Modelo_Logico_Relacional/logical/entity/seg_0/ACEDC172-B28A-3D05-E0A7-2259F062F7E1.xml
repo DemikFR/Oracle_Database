@@ -28,10 +28,10 @@
 <dataTypeSize>8</dataTypeSize>
 <ownDataTypeParameters>8,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd categoria" id="CE1F2910-8EF1-1066-F694-30D69FC5E336">
+<Attribute name="cd categoria" id="941DBB24-0B5A-7193-D2B0-AD26CB6AFC23">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:04:03 UTC</createdTime>
-<generatorID>09601247-22D4-EED9-7ED4-F02CB71124EA</generatorID>
+<createdTime>2023-04-01 01:37:05 UTC</createdTime>
+<generatorID>EA7797A5-C4D5-54EA-02C7-3A05F5C3B33C</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <engineerTo>
 <item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
@@ -39,8 +39,8 @@
 <referedAttribute>D2064B63-FF8A-C76E-6DE7-E0F3F465333E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypeScale>1</dataTypeScale>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id pesquisa" id="8537F864-A014-AF10-40A9-4BAB6647937D">
@@ -56,7 +56,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>9</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="codigo projeto" id="86B182E6-9918-24B1-BAE6-DE19CE0C3DF2">
 <createdBy>demik</createdBy>
@@ -71,7 +71,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>9</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="titulo" id="F5AD5499-3404-4805-5704-293028A4D71D">
 <createdBy>demik</createdBy>

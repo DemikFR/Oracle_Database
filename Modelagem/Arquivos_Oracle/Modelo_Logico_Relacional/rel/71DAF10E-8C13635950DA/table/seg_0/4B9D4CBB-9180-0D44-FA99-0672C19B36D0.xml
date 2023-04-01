@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B04A268-525D-C48C-DA23-001D63A0B4F0" name="BOLSISTA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B9D4CBB-9180-0D44-FA99-0672C19B36D0" name="BOLSISTA">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>F766F330-614F-7202-AC60-BAC791AF577C</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_discente" id="C58459AB-AEA1-90E9-C482-C8C12976B025">
+<Column name="id_discente" id="64511E68-8884-80D7-DD66-575C03913CD2">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>EEEFAC7E-8B64-3B06-907B-44B22A2F6C6B</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>8,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="matricula" id="F4020D04-8485-62C6-AB6A-4CD21356C986">
+<Column name="matricula" id="63E01697-74D5-7A4E-C56B-4D0F70598CF9">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>660D25B0-2510-7267-2DC0-CCF09E62A5D8</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,12 +33,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="354DC9F9-D3B3-2EA7-89BB-F948E88232A5" referredColumn="0102FB27-350C-AE3B-C07B-0C59878511C3"/>
+<colAssociation fkAssociation="AA27B2CF-C61C-AEF3-17E7-891A2435F808" referredColumn="50BC5735-C8FA-1EF4-DC2A-42FA89A122A3"/>
 </associations>
 </Column>
-<Column name="id_orientador" id="5F8CD8E4-0A89-1D85-F231-2B53DACB8597">
+<Column name="id_orientador" id="D24E53A1-CCC2-A319-CFA2-E459C34F14C3">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>3A0677F2-2E59-A799-E964-F1FA1817E777</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -49,12 +49,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C26BF381-CBA0-7997-FEF5-6C4F9DACDAAF" referredColumn="581D1E6F-D0DE-2CA4-E422-6B68DD0C90FF"/>
+<colAssociation fkAssociation="11DEE899-F8B5-CCC6-FE39-CA27652A9B0A" referredColumn="4405E40E-9767-7053-DF3F-529D4CA4E119"/>
 </associations>
 </Column>
-<Column name="id_grupo" id="43CC62A9-FD82-66D5-07EC-7870D25045EB">
+<Column name="id_grupo" id="7988AB5A-F9D2-4E0C-54C0-AC55ABD0318F">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>EFD2EA04-1938-DBAF-5EE0-CF12CA2B085E</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -66,54 +66,54 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B24CF1C8-8308-1367-88DB-0207E23C9818" referredColumn="AC1EF219-A92F-9FCC-9B7F-0B1AB061BE29"/>
+<colAssociation fkAssociation="8F7252F8-6A99-64CA-3E66-A3012EA99669" referredColumn="B06C4CDC-F9A4-7F69-00F5-89C6D28A38EB"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B2739663-360B-BBD3-41DC-433745DC7A49" name="BOLSISTA_PK">
+<ind_PK_UK id="91E6BE60-747D-E05A-2BF8-9D4832295E06" name="BOLSISTA_PK">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>8325DAE2-55BF-BB4F-AF2E-8727AFE9FD46</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C58459AB-AEA1-90E9-C482-C8C12976B025"/>
+<colUsage columnID="64511E68-8884-80D7-DD66-575C03913CD2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AAA9FE8D-5674-2E0E-093B-D0964B66F5F1" name="BOLSISTA_ALUNO_FK">
+<ind_PK_UK id="92D7E690-6285-160C-50C6-4EC5F26570A3" name="BOLSISTA_ALUNO_FK">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>9BC06D42-A420-8416-3CE7-C4D4A6D60276</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F4020D04-8485-62C6-AB6A-4CD21356C986"/>
+<colUsage columnID="63E01697-74D5-7A4E-C56B-4D0F70598CF9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F98B58AC-7413-B794-A5E3-6FBDE59D3959" name="BOLSISTA_GRUPO_PESQUISA_FK">
+<ind_PK_UK id="09C45EA3-135A-978F-F3BF-D310F2C3D2A3" name="BOLSISTA_GRUPO_PESQUISA_FK">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>3FB00001-FF5F-DC74-046A-FCA24BE79506</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="43CC62A9-FD82-66D5-07EC-7870D25045EB"/>
+<colUsage columnID="7988AB5A-F9D2-4E0C-54C0-AC55ABD0318F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="04C7079E-1798-5C4A-0D67-27E83AEC17D2" name="BOLSISTA_ORIENTADOR_FK">
+<ind_PK_UK id="F356E74F-B5FA-42AF-4760-C696B59BCE48" name="BOLSISTA_ORIENTADOR_FK">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>5E43D59A-CF52-171B-3705-CC62567659BA</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5F8CD8E4-0A89-1D85-F231-2B53DACB8597"/>
+<colUsage columnID="D24E53A1-CCC2-A319-CFA2-E459C34F14C3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

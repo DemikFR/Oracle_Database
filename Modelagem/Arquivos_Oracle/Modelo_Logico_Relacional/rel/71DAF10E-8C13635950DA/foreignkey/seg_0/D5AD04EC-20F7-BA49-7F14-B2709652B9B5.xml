@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D5AD04EC-20F7-BA49-7F14-B2709652B9B5" containerWithKeyObject="F88FCF31-985F-CF6D-76B4-84C753CEE181" localFKIndex="28542ED3-9BCC-E076-6032-C3E8137E2561" name="BOLSA_UNIDADE_FK">
+<createdBy>demik</createdBy>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
+<generatorID>EE7379B6-492E-6815-3162-E0100ADE9400</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<referredTableLongName>UNIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>32BECA0E-0506-DE83-62AB-46B82B95F70A</referredTableID>
+<keyObject>CF50840D-BE87-AFA5-0B25-C963C09E929F</keyObject>
+<referredKeyID>CF50840D-BE87-AFA5-0B25-C963C09E929F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_unidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

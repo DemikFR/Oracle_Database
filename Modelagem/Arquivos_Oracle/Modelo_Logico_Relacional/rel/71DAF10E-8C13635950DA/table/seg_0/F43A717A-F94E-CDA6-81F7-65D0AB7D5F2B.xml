@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D51520CB-CAB0-586D-B014-19489A69A11C" name="UNIDADE_ALUNO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F43A717A-F94E-CDA6-81F7-65D0AB7D5F2B" name="UNIDADE_ALUNO">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>42E7056B-3D72-272A-22C1-7DC1BE5B90C9</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="matricula" id="95AD61B6-A869-D853-D58A-E0BD47046BB2">
+<Column name="matricula" id="CD8BBA8C-207B-0217-1F30-D9AF5AB21A6D">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>4F5E39FB-3CAB-E931-C664-6338A5946EA4</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -21,12 +21,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D0B80F22-B0A4-6F3C-2873-5A85076C641E" referredColumn="0102FB27-350C-AE3B-C07B-0C59878511C3"/>
+<colAssociation fkAssociation="614A1573-E703-E4A4-C16B-5314B6DE9C62" referredColumn="50BC5735-C8FA-1EF4-DC2A-42FA89A122A3"/>
 </associations>
 </Column>
-<Column name="id_unidade" id="9E4040D9-EFB9-B91D-4299-E736AEAF6FE4">
+<Column name="id_unidade" id="A4A6DBC0-417A-3AFA-28C7-4880B9C5C807">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>BA7EDA60-48CE-3D97-9546-3BBBDC5F9DE4</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -37,44 +37,44 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F3BEAA04-6480-4DC8-4C87-55315738581F" referredColumn="E0C2649E-72F2-C081-C677-DA53BF63A090"/>
+<colAssociation fkAssociation="25A6C1D6-E8E4-AEDE-9AFB-139B12A1E971" referredColumn="17E82C1A-96E4-76A0-DEBC-61420083455B"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="79FE05A2-3095-8CA3-112F-8EF6B95F08C5" name="UNIDADE_ALUNO_PK">
+<ind_PK_UK id="2852EFF3-E563-3F7F-0EF6-FDFA64733A36" name="UNIDADE_ALUNO_PK">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>C4EDCF31-DC63-7D23-00A7-B8C8D8CFD528</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="95AD61B6-A869-D853-D58A-E0BD47046BB2"/>
-<colUsage columnID="9E4040D9-EFB9-B91D-4299-E736AEAF6FE4"/>
+<colUsage columnID="CD8BBA8C-207B-0217-1F30-D9AF5AB21A6D"/>
+<colUsage columnID="A4A6DBC0-417A-3AFA-28C7-4880B9C5C807"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="556A1284-3624-7DEF-8B69-054D9F19937B" name="MATRICULA_ALUNO_FK">
+<ind_PK_UK id="BDB68F11-933E-1ECC-6A7A-AA1F413BF2F5" name="ID_UNIDADE_FK">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
-<generatorID>881440E3-CDF6-40CE-6E27-41B86ACF9FAF</generatorID>
-<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="95AD61B6-A869-D853-D58A-E0BD47046BB2"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="29163BE2-F933-B9D4-FAA7-CE82E7D0F35B" name="ID_UNIDADE_FK">
-<createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>68E29B0F-BE34-BB14-BD52-70F6F7D46C35</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9E4040D9-EFB9-B91D-4299-E736AEAF6FE4"/>
+<colUsage columnID="A4A6DBC0-417A-3AFA-28C7-4880B9C5C807"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7C0EC60-A573-4818-8690-25D88A83A3AE" name="MATRICULA_ALUNO_FK">
+<createdBy>demik</createdBy>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
+<generatorID>881440E3-CDF6-40CE-6E27-41B86ACF9FAF</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD8BBA8C-207B-0217-1F30-D9AF5AB21A6D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

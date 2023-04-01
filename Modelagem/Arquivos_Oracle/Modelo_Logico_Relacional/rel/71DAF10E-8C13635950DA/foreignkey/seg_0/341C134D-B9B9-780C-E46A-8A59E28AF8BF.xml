@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="341C134D-B9B9-780C-E46A-8A59E28AF8BF" containerWithKeyObject="F88FCF31-985F-CF6D-76B4-84C753CEE181" localFKIndex="94FF8659-8F6A-9783-865D-EFF0C229D4DB" name="BOLSA_BOLSISTA_FK">
+<createdBy>demik</createdBy>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
+<generatorID>BD2E13C6-606D-6340-01F4-D305F1B02D3B</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<referredTableLongName>BOLSISTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4B9D4CBB-9180-0D44-FA99-0672C19B36D0</referredTableID>
+<keyObject>91E6BE60-747D-E05A-2BF8-9D4832295E06</keyObject>
+<referredKeyID>91E6BE60-747D-E05A-2BF8-9D4832295E06</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_discente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

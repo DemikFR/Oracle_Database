@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F023A8CA-8ABD-8622-E305-386971F1C59A" containerWithKeyObject="93E3F993-F82D-3CFC-B1B1-552EAC6DA8AA" localFKIndex="5FC3D6E1-0E05-9329-E2B5-22FD3EB22F7F" name="PESQUISA_STATUS_FK">
+<createdBy>demik</createdBy>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
+<generatorID>87ED3975-D545-FC4F-560C-E6DE2FB8B0D8</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<referredTableLongName>STATUS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8BE11355-2CBF-10B0-44F7-042942CBEC8C</referredTableID>
+<keyObject>EEAB3D00-72F9-8B12-FFBC-B0D4B7762A11</keyObject>
+<referredKeyID>EEAB3D00-72F9-8B12-FFBC-B0D4B7762A11</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_status</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

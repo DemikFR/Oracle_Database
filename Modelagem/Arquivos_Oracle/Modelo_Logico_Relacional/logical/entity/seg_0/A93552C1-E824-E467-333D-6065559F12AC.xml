@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A88D7BC7-BFC8-65B2-BBB0-D8753DF8780A" name="CATEGORIA PESQUISA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A93552C1-E824-E467-333D-6065559F12AC" name="STATUS">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-22 22:48:06 UTC</createdTime>
+<createdTime>2023-04-01 01:14:53 UTC</createdTime>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <engineerTo>
 <item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
@@ -15,22 +15,22 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd categoria" id="D2064B63-FF8A-C76E-6DE7-E0F3F465333E">
+<Attribute name="cd_status" id="EF24D5FF-F7E2-BBF7-E4AD-85843A7B833D">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-22 22:49:31 UTC</createdTime>
+<createdTime>2023-04-01 01:15:02 UTC</createdTime>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <engineerTo>
 <item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="categoria" id="55DE48E4-01B5-1169-B51D-5F8E79D56987">
+<Attribute name="status" id="D51D3F4F-DA91-63C5-8204-1018A927EF06">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-22 22:50:06 UTC</createdTime>
+<createdTime>2023-04-01 01:15:43 UTC</createdTime>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <engineerTo>
 <item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
@@ -38,21 +38,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>35</dataTypeSize>
-<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<dataTypeSize>22</dataTypeSize>
+<ownDataTypeParameters>22,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A97F6BEA-B451-2078-7D27-ACE7110ADE5D" name="CATEGORIA_PK">
+<identifier id="9EA05307-E1E0-D704-2BF6-AA8AB987D791" name="status PK">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-22 22:49:41 UTC</createdTime>
+<createdTime>2023-04-01 01:15:39 UTC</createdTime>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="true"/>
+<item key="71DAF10E-F8C8-307F-6DEC-8C13635950DA" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D2064B63-FF8A-C76E-6DE7-E0F3F465333E</attributeRef>
+<attributeRef>EF24D5FF-F7E2-BBF7-E4AD-85843A7B833D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

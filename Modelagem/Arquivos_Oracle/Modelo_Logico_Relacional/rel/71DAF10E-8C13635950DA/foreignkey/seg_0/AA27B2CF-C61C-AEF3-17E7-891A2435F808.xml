@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA27B2CF-C61C-AEF3-17E7-891A2435F808" containerWithKeyObject="4B9D4CBB-9180-0D44-FA99-0672C19B36D0" localFKIndex="92D7E690-6285-160C-50C6-4EC5F26570A3" name="BOLSISTA_ALUNO_FK">
+<createdBy>demik</createdBy>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
+<generatorID>9BC06D42-A420-8416-3CE7-C4D4A6D60276</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<referredTableLongName>ALUNO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>57738608-0EDF-D258-0ECF-AECA9CD30F5B</referredTableID>
+<keyObject>2C0315FA-BF38-A155-B766-2C23B31C5AF7</keyObject>
+<referredKeyID>2C0315FA-BF38-A155-B766-2C23B31C5AF7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>matricula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

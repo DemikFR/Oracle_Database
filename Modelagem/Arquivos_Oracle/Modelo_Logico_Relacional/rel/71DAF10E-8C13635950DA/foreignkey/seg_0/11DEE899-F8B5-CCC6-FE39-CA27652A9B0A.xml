@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11DEE899-F8B5-CCC6-FE39-CA27652A9B0A" containerWithKeyObject="4B9D4CBB-9180-0D44-FA99-0672C19B36D0" localFKIndex="F356E74F-B5FA-42AF-4760-C696B59BCE48" name="BOLSISTA_ORIENTADOR_FK">
+<createdBy>demik</createdBy>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
+<generatorID>5E43D59A-CF52-171B-3705-CC62567659BA</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<referredTableLongName>ORIENTADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>78D1E5A8-C72B-F154-2372-278A317D582D</referredTableID>
+<keyObject>23BA300E-3821-FB56-DEE5-00D657AB667D</keyObject>
+<referredKeyID>23BA300E-3821-FB56-DEE5-00D657AB667D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_orientador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

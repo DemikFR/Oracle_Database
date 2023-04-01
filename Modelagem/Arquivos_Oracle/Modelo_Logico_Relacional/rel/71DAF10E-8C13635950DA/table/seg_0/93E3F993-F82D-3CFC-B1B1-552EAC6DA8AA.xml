@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3EF3DDF-9372-D444-F3B6-07D1374C5906" name="PESQUISA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93E3F993-F82D-3CFC-B1B1-552EAC6DA8AA" name="PESQUISA">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>089C8ADB-AD4C-B62B-295A-E67290F355F0</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_pesquisa" id="6A389026-CDFE-6D8B-177E-F8BD33011B00">
+<Column name="id_pesquisa" id="C222A990-BD58-F10E-4A1C-508C4122538E">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>2850D4E4-6065-40A2-AF4D-3FBE8E877B8A</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,21 +20,25 @@
 <ownDataTypeParameters>9,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="status" id="B610A70E-2214-B592-261A-C9AE008A1230">
+<Column name="cd_status" id="88416EFC-5B58-B20E-3357-35A2C1751519">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
-<generatorID>6828C8DB-246D-3FC1-176A-42AC2E6E45C7</generatorID>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
+<generatorID>767D871E-CBDA-3655-3A9A-B915D2B9EE4C</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>21</dataTypeSize>
-<ownDataTypeParameters>21,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F023A8CA-8ABD-8622-E305-386971F1C59A" referredColumn="4EB4E7DA-5554-4489-896F-FCF62EBF9B87"/>
+</associations>
 </Column>
-<Column name="inicio_pesquisa" id="8488DBA7-3829-044D-53DD-5CC082574F8E">
+<Column name="inicio_pesquisa" id="71CEDF1E-D91F-C302-9F04-9DA630F2F9A3">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>9DED52F0-883A-1ECC-03FE-CE9192695D44</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,9 +47,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="linha_pesquisa" id="A7AE4A11-485C-2BB9-E0C1-496E9CB0B657">
+<Column name="linha_pesquisa" id="EB087EDD-AB22-F138-F609-E44166123FBA">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>3A40E588-4EB0-7AA1-B94E-829AD1385ACA</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -56,9 +60,9 @@
 <ownDataTypeParameters>199,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fim_pesquisa" id="F3E82843-FA81-BB5E-CF8B-627D79713151">
+<Column name="fim_pesquisa" id="18B39C43-245B-6517-80BC-A2F0471BF27F">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>E1227BB4-6FDE-0A92-A19F-091D56FF5653</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -70,16 +74,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6897E9F9-5CC3-78B0-FF4E-34DD0C0CF01A" name="PESQUISA_PK">
+<ind_PK_UK id="774E8A0B-04AA-38D6-42C2-01CD77A93AEB" name="PESQUISA_PK">
 <createdBy>demik</createdBy>
-<createdTime>2023-01-23 00:49:12 UTC</createdTime>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
 <generatorID>D653921B-F1DC-EA57-FF21-C19594ABA16D</generatorID>
 <ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6A389026-CDFE-6D8B-177E-F8BD33011B00"/>
+<colUsage columnID="C222A990-BD58-F10E-4A1C-508C4122538E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FC3D6E1-0E05-9329-E2B5-22FD3EB22F7F" name="PESQUISA_STATUS_FK">
+<createdBy>demik</createdBy>
+<createdTime>2023-04-01 01:38:24 UTC</createdTime>
+<generatorID>87ED3975-D545-FC4F-560C-E6DE2FB8B0D8</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88416EFC-5B58-B20E-3357-35A2C1751519"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
