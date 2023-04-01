@@ -189,7 +189,10 @@ Todas as outras triggers das tabelas, seguem o mesmo padrão das usadas de exemp
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Oracle SQL](https://www.oracle.com/br/database/sqldeveloper/)
+- [Python](https://www.python.org/)
+- [Pandas](https://pandas.pydata.org/)
 - [Jupyter Notebook](https://jupyter.org/)
+
 
 <h2>📝 Licença</h2>
 
