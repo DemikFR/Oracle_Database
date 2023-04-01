@@ -27,7 +27,9 @@ Nela terão os atributos matricula(FK de aluno) e ID unidade(FK de unidade), amb
 		
 - Projeto de pesquisa: são dados que dirão sobre o desenvolvimento da pesquisa, além de dizer os impactos. receberá CD projeto(conforme base, é um código composto por letras e números), ano (inicial do projeto).
 		
-- Pesquisa: diz do que a pesquisa se trata. Receberá ID pesquisa, CD projeto(FK de projeto), status (se a pesquisa já terminou, não ou há pendencias), inicio pesquisa, linha pesquisa (breve descrição), fim (da pesquisa).
+- Pesquisa: diz do que a pesquisa se trata. Receberá ID pesquisa, CD projeto(FK de projeto), cd status (FK se a pesquisa já terminou, em andamento ou há pendencias), inicio pesquisa, linha pesquisa (breve descrição), fim (da pesquisa).
+
+- Status da Pesquisa: Em qual situação a pesquisa está no momento, existindo três opções: 1: EM ANDAMENTO; 2: PENDENTE DE RELATORIO; 3: FINALIZADO.
 		
 - Bolsa: esta entidade é para relacionar o bolsista com a(s) sua(s) pesquisa(s), garantindo a sua normalização. Ela também foi 
 ajustada para se relacionar com a entidade unidade, garantindo o funcionamento conceitual do banco. Os atributos dela serão cd bolsa, 
@@ -58,40 +60,42 @@ Possivelmente podem se tornar bolsistas.
 
 8 - A pesquisa deve ter um ou mais de um projeto, assim como o projeto deve ter um ou mais pesquisas.
 
-9 - A categoria de bolsa é mandatória.
+9 - A pode ter deve ter apenas um status, enquanto o status pode ter um ou mais pesquisas
 
-10 - Na PK de Categoria, deve ser IC para Iniciação Cienrtifíca ou IT para Iniciação Tecnológica.
+10 - A categoria de bolsa é mandatória.
 
-11 - A bolsa deve ter uma unidade que deve ter uma ou mais bolsas.
+11 - Na PK de Categoria, deve ser IC para Iniciação Cienrtifíca ou IT para Iniciação Tecnológica.
 
-12 - Os alunos devem ter uma unidade que foi matriculado, e a unidade pode ou não ter alunos.
+12 - A bolsa deve ter uma unidade que deve ter uma ou mais bolsas.
 
-13 - Todas as PK devem ter os seguintes números de carácteres: ID_discente = 8, matricula = 11, CD_projeto = 9, 
+13 - Os alunos devem ter uma unidade que foi matriculado, e a unidade pode ou não ter alunos.
+
+14 - Todas as PK devem ter os seguintes números de carácteres: ID_discente = 8, matricula = 11, CD_projeto = 9, 
 CD_projeto_pesquisa = 8, CD_categoria = 2, ID_orientador = 7, ID_grupo = 11, ID_unidade = 5, ID_PESQUISA = 9, CD_bolsa = 7.
 
-14 - Caso o ID/CD não tenha o tamanho máximo de carácteres, deve-se colocar 0 à esquerda do número, exceto os que tenham textos.
+15 - Caso o ID/CD não tenha o tamanho máximo de carácteres, deve-se colocar 0 à esquerda do número, exceto os que tenham textos.
 
-15 - No banco, todos os textos deverão estar em maiúscula.
+16 - No banco, todos os textos deverão estar em maiúscula.
 
-16 - O campo de título e grupo de pesquisa não deverão ter valores nulos, caso tenha, deve ser transformado para "NÃO INFORMADO".
+17 - O campo de título e grupo de pesquisa não deverão ter valores nulos, caso tenha, deve ser transformado para "NÃO INFORMADO".
 
-17 - Caso o campo inicio ou fim estiverem nulos, deve ser usado os dados de cota para preenche-los adequadamente.
+18 - Caso o campo inicio ou fim estiverem nulos, deve ser usado os dados de cota para preenche-los adequadamente.
 
-18 - O campo do código de projeto deve ser composto apenas pelas letras iniciais e seu número, separando do ano, tornando a com no máximo 9 caractéres.
+19 - O campo do código de projeto deve ser composto apenas pelas letras iniciais e seu número, separando do ano, tornando a com no máximo 9 caractéres.
 
-19 - Nos campos de texto é admitido todo tipo de caractéres, desde que começe e termine por letras.
+20 - Nos campos de texto é admitido todo tipo de caractéres, desde que começe e termine por letras.
 
 <h2>📋Modelo Lógico</h2>
 <div align=center>
-	<img height="550" width="800" src="https://i.imgur.com/JtfjrwR.png">
+	<img height="550" width="800" src="https://user-images.githubusercontent.com/102700735/229260008-8301e3a1-3f70-4335-9604-add3b2ec17f4.png">
 </div>
 
 <h2>📋Modelo Relacional</h2>
 <div align=center>
-	<img height="550" width="800" src="https://i.imgur.com/EdYD0ZE.png">
+	<img height="550" width="800" src="https://user-images.githubusercontent.com/102700735/229260097-1e8f36fd-3c24-4366-95f0-9ae7fe1f2e09.png">
 </div>
 
-Para respeitar a 12 regra de negócio, todos os índices e códigos foram transformados em VARCHAR2.
+Para respeitar a 15 regra de negócio, todos os índices e códigos foram transformados em VARCHAR2.
 
 <h2>📋Funções e Triggers</h2>
 
@@ -122,9 +126,9 @@ BEGIN
 END;
 ~~~
 
-Para garantir a RN 15, todas os campos de texto serão alterados com o comando UPPER, conforme o "nm_aluno" da trigger acima.
+Para garantir a RN 16, todas os campos de texto serão alterados com o comando UPPER, conforme o "nm_aluno" da trigger acima.
 
-Para a tabela categoria, foi criada uma função que através de um comando REGEX, verificará se no dado a ser inserido na descrição de categoria, conterá, Cien ou Tec, assim, quando for a primeira, mudará o campo CD_Categoria para 'IC', já no segundo caso, o campo será IT, conforme a RN 10.
+Para a tabela categoria, foi criada uma função que através de um comando REGEX, verificará se no dado a ser inserido na descrição de categoria, conterá, Cien ou Tec, assim, quando for a primeira, mudará o campo CD_Categoria para 'IC', já no segundo caso, o campo será IT, conforme a RN 11.
 
 ~~~sql
 --Função para adicionar o código da Categoria.
