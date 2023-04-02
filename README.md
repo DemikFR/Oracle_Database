@@ -92,8 +92,9 @@ CD_projeto_pesquisa = 8, CD_categoria = 2, ID_orientador = 7, ID_grupo = 11, ID_
 
 <h2>📋Modelo Relacional</h2>
 <div align=center>
-	<img height="550" width="800" src="https://user-images.githubusercontent.com/102700735/229260097-1e8f36fd-3c24-4366-95f0-9ae7fe1f2e09.png">
+	<img height="550" width="800" src="https://user-images.githubusercontent.com/102700735/229327312-2c324f3b-27f8-40ad-84c7-6f8bb9140605.png">
 </div>
+
 
 Para respeitar a 15 regra de negócio, todos os índices e códigos foram transformados em VARCHAR2.
 
