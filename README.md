@@ -3,8 +3,14 @@
   <h1 align="center">Banco de Dados Oracle para a base de Bolsistas da UFRN</h1>
 </div>
 <div align="center">Projeto de banco de dados Oracle dos bolsistas de pesquisa da UFRN.<br><br></div>
-Os dados se encontram na página de <a href="https://dados.ufrn.br/">dados abertos da UFRN</a> e na pasta "Base_Dados" deste repositório.<br><br>
+<div align="center">Os dados se encontram na página de <a href="https://dados.ufrn.br/">dados abertos da UFRN</a> e na pasta "Base_Dados" deste repositório.<br><br></div>
 <h3 align=center>🔨Projeto ainda em desenvolvimento.🔨</h3><br>
+
+<h2>💡 Sobre o Projeto:</h2>
+
+Este projeto tem a finalidade de armazenar esses dados de forma eficiente, organizada e estruturada, facilitando o acesso por pessoas e sistemas, garantindo assim que os dados possam ser utilizados para fins de análises ou criação de softwares para gerenciamento.
+
+Além disso, o uso da base de dados pública da UFRN também tem o objetivo de ser um recurso de aprendizado.
 
 <h2>💽 Entidades:</h2>
 Para se adequar às formas normais, foram criadas 9 entidades, cada uma com a sua chave primária de acordo com os 
