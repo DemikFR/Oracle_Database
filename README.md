@@ -192,8 +192,7 @@ Todas as outras triggers das tabelas, seguem o mesmo padrão das usadas de exemp
 
 <h2>⚙️Pipeline ETL</h2>
 <h3 align=center>🔨Etapa em desenvolvimento.🔨</h3><br>
-
-Foi decidido criar 
+ 
 
 <h2>🛠 Tecnologias</h2>
 
